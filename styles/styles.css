@@ -42,6 +42,15 @@ p {
   width: 100%;
 }
 
+hr {
+  height: 1px;
+  width: 85%;
+  background: #1c1c1c;
+  margin-top: 40px !important; 
+  margin-bottom: 40px !important; 
+  /* margin: 0px 20px 20px 0;  */
+}
+
 /* Home Page */
 
 .homeTop {
@@ -80,8 +89,8 @@ p {
   text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
-  color: white;
-  background-color: #18268a;
+  color: black;
+  background-color: gold;
 } 
 
         /* H O M E  P A G E  S T O R Y  A P P */
@@ -102,6 +111,7 @@ p {
 
 .wave {
   width: 80%;
+  visibility: visible !important;
   margin: auto;
 }
 
@@ -156,9 +166,6 @@ p {
   text-align: center;
 }
 
-/* .linkSquare .fas{
-} */
-
 .linkSquare .fas:hover{
   text-decoration: none;
   color: gold;
@@ -174,7 +181,6 @@ p {
         }
 
         .formDonate{
-          width: 50%;
           padding: 2rem;
           margin: auto;
         }
@@ -231,8 +237,9 @@ text-shadow: #1c1c1c 5px 2px 2px;
   text-decoration: none !important;
 }
 
-.aIconFooter a {
-color: gold !important;
+.iconFooter:hover{
+  text-decoration: none;
+  color: gold !important;
 }
 
 .copyright{
