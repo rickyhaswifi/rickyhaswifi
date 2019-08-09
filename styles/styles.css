@@ -29,7 +29,7 @@ body, html {
   background-color: gold;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Poppins', sans-serif;
 }
 
@@ -51,6 +51,15 @@ hr {
   /* margin: 0px 20px 20px 0;  */
 }
 
+a {
+  color: #17268A !important;
+}
+
+a:hover {
+  color: rgb(59, 77, 192) !important;
+  text-decoration: none !important;
+}
+
 /* Home Page */
 
 .homeTop {
@@ -63,13 +72,19 @@ hr {
   background-color: gold;
 }
 
+.btn-hello {
+  color: #fff !important;
+  background-color: #17268A !important;
+  border-color: #007bff;
+}
 
 .storyApp {
   color: #fff;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: rgb(6, 109, 122);
+  background-color: #17268A;
+  min-height: 80vh;
 }
 
 
@@ -94,6 +109,16 @@ hr {
 } 
 
         /* H O M E  P A G E  S T O R Y  A P P */
+
+.introh2 {
+  color: gold;
+}   
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  display: inline-block;
+  width: 45px !important;
+  height: 45px !important;
+  background: 50% center / 100% 100% no-repeat;
+}
 
 .linkSquare{
   color: white !important;
