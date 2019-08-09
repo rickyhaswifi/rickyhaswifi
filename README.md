@@ -1,2 +1,2 @@
 # rickyhaswifi
-Projects
+About Me - DevPoint Labs Fall Cohort
