@@ -5,7 +5,43 @@ document.addEventListener("DOMContentLoaded", function() {
   let name = "Princess " + e.target.value;
   document.getElementById('nameOutput').innerHTML = name;
   });
-  
+
+  let princess = document.getElementById('nameOutput');
+  princess.className += ' princess';
+
+  // Homepage text 
+  document.getElementsByTagName('title')[0].innerHTML = 'About Me';
+  document.getElementById('myName').innerHTML = 'Hi my name is Ricardo,';
+  document.getElementById('yourName').innerHTML = 'what\'s your name?';
+  document.getElementById('goldenBook').innerHTML = 'This golden book belongs to';
+
+    let goldenBook = document.getElementById("goldenBook");
+    goldenBook.className += " introh2";
+
+  document.getElementById('tap').innerHTML = 'Tap a button to play audio!';
+
+  document.getElementById('proj').innerHTML = 'Projects';
+  document.getElementById('lnza').innerHTML = "Lnza.me";
+  document.getElementById('lnzaP').innerHTML = "HTML • Bootstrap • CSS • Wavesurfer JS";
+  document.getElementById('lnzaLink').innerHTML = '<a href="https://lnza.me" target="_blank">www.lnza.me</a> <a href="https://github.com/rickyhaswifi/Lnza.me/blob/master/index.html" target="_blank"><i class="fab fa-github"></i></a>';
+
+  document.getElementById('lifeH').innerHTML = 'Lifestone Church';
+  document.getElementById('lifeP').innerHTML = 'Squarespace • Custom CSS';
+  document.getElementById('lifeLink').innerHTML = '<a href="https://lifestonechurch.net" target="_blank">www.lifestonechurch.net</a>';
+
+  document.getElementById('gpoH').innerHTML = 'Alliance GPO';
+  document.getElementById('gpoP').innerHTML = 'Squarespace • Custom CSS';
+  document.getElementById('gpoLink').innerHTML = '<a href="https://www.alliancegpo.com/primary" target="_blank">www.alliancegpo.com</a>  <button type="button" class="btn btn-hello" data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-pencil-ruler"></i></button>';
+
+  document.getElementById('seeMore').innerHTML = '<a href="https://entendy.com/portfolio/" target="_blank">+ See More</a>';
+
+  document.getElementById('contact').innerHTML = '<h1>Contact Me</h1><a class="aIconFooter" href="https://github.com/rickyhaswifi" target="_blank"><i class="fab fa-github-square fa-fw fa-3x iconFooter"></i></a> <a class="aIconFooter" href="mailto:rickyhaswifi@gmail.com"><i class="fas fa-envelope-square fa-fw fa-3x iconFooter"></i></a> <a class="aIconFooter" href="https://www.youtube.com/user/Entendy"><i class="fab fa-youtube-square fa-fw fa-3x iconFooter"></i></a>';
+
+  let footer = (new Date().getFullYear())
+  document.getElementById('copyR').innerHTML  = '©' + footer + ' Ricardo Bautista';
+
+
+
   // WAVESURFER JS START
   
   // A U D I O 1 
@@ -31,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   let story2 = WaveSurfer.create({
     container: '#story2',
+    backend: 'MediaElement',
     waveColor: '#fff',
     progressColor: '#FFB002'
   });
@@ -115,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   story6.on('ready', function() {
     story6.pause();
-    story6.setVolume(0.8);
+    story6.setVolume(1);
   });
   
   document
@@ -134,7 +171,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   story7.on('ready', function() {
     story7.pause();
-    story7.setVolume(0.8);
+    story7.setVolume(1);
   });
   
   document
@@ -172,7 +209,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   story9.on('ready', function() {
     story9.pause();
-    story9.setVolume(0.8);
+    story9.setVolume(1);
   });
   
   document
@@ -191,12 +228,12 @@ document.addEventListener("DOMContentLoaded", function() {
   
   story10.on('ready', function() {
     story10.pause();
-    story10.setVolume(0.8);
+    story10.setVolume(1);
   });
   
   document
     .querySelector('[data-action="story10"]')
     .addEventListener('click', story10.playPause.bind(story10));
   
-  
+  console.log('The end')
 })
