@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('contact').innerHTML = '<h1>Contact Me</h1><a class="aIconFooter" href="https://github.com/rickyhaswifi" target="_blank"><i class="fab fa-github-square fa-fw fa-3x iconFooter"></i></a> <a class="aIconFooter" href="mailto:rickyhaswifi@gmail.com"><i class="fas fa-envelope-square fa-fw fa-3x iconFooter"></i></a> <a class="aIconFooter" href="https://www.youtube.com/user/Entendy"><i class="fab fa-youtube-square fa-fw fa-3x iconFooter"></i></a>';
 
   let footer = (new Date().getFullYear())
-  document.getElementById('copyR').innerHTML  = '©' + footer + ' Ricardo Bautista';
+  document.getElementById('copyR').innerHTML  = '©' + footer + ' Ricardo Bautista <br> <a href="https://github.com/rickyhaswifi/rickyhaswifi.github.io" target="_blank">View Source Code</a>' ;
 
 
 
