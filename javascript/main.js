@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   
   // Name Input
   document.getElementById('nameInput').addEventListener('input', function(e){
+  e.preventDefault();
   let name = "Princess " + e.target.value;
   document.getElementById('nameOutput').innerHTML = name;
   });
@@ -23,10 +24,10 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('proj').innerHTML = 'Projects';
   document.getElementById('lnza').innerHTML = "Lnza.me";
   document.getElementById('lnzaP').innerHTML = "HTML • Bootstrap • CSS • Wavesurfer JS";
-  document.getElementById('lnzaLink').innerHTML = '<a href="https://lnza.me" target="_blank">www.lnza.me</a> <a href="https://github.com/rickyhaswifi/Lnza.me/blob/master/index.html" target="_blank"><i class="fab fa-github"></i></a>';
+  document.getElementById('lnzaLink').innerHTML = '<a href="https://lnza.me" target="_blank">www.lnza.me</a> <a href="https://github.com/rickyhaswifi/Lnza.me/blob/master/index.html" target="_blank"><i class="fab fa-github-square"></i></a> <a href="https://www.youtube.com/watch?v=Pny0V-qlhiA" target="_blank"><i class="fab fa-youtube-square"></i></a>';
 
   document.getElementById('lifeH').innerHTML = 'Lifestone Church';
-  document.getElementById('lifeP').innerHTML = 'Squarespace • Custom CSS';
+  document.getElementById('lifeP').innerHTML = 'Squarespace • Custom CSS • Podcast Distribution • Video Editing';
   document.getElementById('lifeLink').innerHTML = '<a href="https://lifestonechurch.net" target="_blank">www.lifestonechurch.net</a>';
 
   document.getElementById('gpoH').innerHTML = 'Alliance GPO';
@@ -35,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.getElementById('seeMore').innerHTML = '<a href="https://entendy.com/portfolio/" target="_blank">+ See More</a>';
 
-  document.getElementById('contact').innerHTML = '<h1>Contact Me</h1><a class="aIconFooter" href="https://github.com/rickyhaswifi" target="_blank"><i class="fab fa-github-square fa-fw fa-3x iconFooter"></i></a> <a class="aIconFooter" href="mailto:rickyhaswifi@gmail.com"><i class="fas fa-envelope-square fa-fw fa-3x iconFooter"></i></a> <a class="aIconFooter" href="https://www.youtube.com/user/Entendy"><i class="fab fa-youtube-square fa-fw fa-3x iconFooter"></i></a>';
+  document.getElementById('contact').innerHTML = '<h1>Contact Me</h1><a class="aIconFooter" href="https://github.com/rickyhaswifi" target="_blank"><i class="fab fa-github-square fa-fw fa-3x iconFooter"></i></a> <a class="aIconFooter" href="mailto:rickyhaswifi@gmail.com"><i class="fas fa-envelope-square fa-fw fa-3x iconFooter"></i></a> <a class="aIconFooter" href="https://www.youtube.com/user/Entendy" target="_blank"><i class="fab fa-youtube-square fa-fw fa-3x iconFooter"></i></a>';
 
   let footer = (new Date().getFullYear())
   document.getElementById('copyR').innerHTML  = '©' + footer + ' Ricardo Bautista <br> <a href="https://github.com/rickyhaswifi/rickyhaswifi.github.io" target="_blank">View Source Code</a>' ;
