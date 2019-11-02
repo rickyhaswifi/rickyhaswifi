@@ -1,11 +1,21 @@
 document.addEventListener("DOMContentLoaded", function() {
   
   // Name Input
+
+  document.getElementById('nameForm').addEventListener('submit', function(event){
+    event.preventDefault();
+    document.querySelector('#storyApp').scrollIntoView({ 
+      behavior: 'smooth' 
+    });
+  });
+
   document.getElementById('nameInput').addEventListener('input', function(e){
   e.preventDefault();
   let name = "Princess " + e.target.value;
   document.getElementById('nameOutput').innerHTML = name;
   });
+
+
 
   let princess = document.getElementById('nameOutput');
   princess.className += ' princess';
@@ -31,7 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('lifeLink').innerHTML = '<a href="https://lifestonechurch.net" target="_blank">www.lifestonechurch.net</a>';
 
   document.getElementById('gpoH').innerHTML = 'Alliance GPO';
-  document.getElementById('gpoP').innerHTML = 'Squarespace • Custom CSS';
+  document.getElementById('gpoP').innerHTML = 'Squarespace • Custom CSS • Photoshop';
   document.getElementById('gpoLink').innerHTML = '<a href="https://www.alliancegpo.com/primary" target="_blank">www.alliancegpo.com</a>  <button type="button" class="btn btn-hello" data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-pencil-ruler"></i></button>';
 
   document.getElementById('seeMore').innerHTML = '<a href="https://entendy.com/portfolio/" target="_blank">+ See More</a>';
