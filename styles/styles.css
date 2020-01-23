@@ -13,6 +13,7 @@ font-family: 'Cutive Mono', monospace;
         */
 
 body, html {
+  background-color: #1c1c1c;
   scroll-behavior: smooth;
   padding-left: 0rem;
   padding-right: 0rem;
@@ -36,6 +37,14 @@ h1, h2 {
 p {
   font-family: 'Darker Grotesque', sans-serif;
   font-size: 2rem;
+}
+
+.pad{
+  margin-top: 2em;
+  border-bottom: 2px #383838 solid;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
 }
 
 .img {
@@ -87,6 +96,11 @@ a:hover {
   min-height: 80vh;
 }
 
+.storyApp p {
+  text-align: center;
+  font-size: 1em;
+  margin: auto;
+}
 
 .storyAppButtons {
   display: flex;
@@ -207,7 +221,9 @@ a:hover {
   min-height: 60vh;
 }
 
-.formDonate{
+.form-group{
+  width: 80%;
+  text-align: left;
   padding: 2rem;
   margin: auto;
 }
@@ -250,6 +266,7 @@ text-shadow: #1c1c1c 5px 2px 2px;
         /* G L O B A L  F O O T E R */
 
 .globalFooter {
+  width: 100%;
   text-align: center;
   display: flex;
   align-items: center;
@@ -271,7 +288,28 @@ text-shadow: #1c1c1c 5px 2px 2px;
 
 .copyright{
   text-align: center;
+  text-transform: uppercase;
+  font-size: .65em;
+  letter-spacing: 3px;
   padding: 10px;
   color: #383838;
   background: black;
+}
+.copyright a{
+  color: gold !important;
+}
+
+.blck{
+  padding: 2em 0;
+  width: 100%;
+  display: block;
+}
+
+.btn-send{
+  width: 100%;
+}
+
+.btn-primary{
+  background-color: #17268A !important;
+  border-color: #17268A !important;
 }
