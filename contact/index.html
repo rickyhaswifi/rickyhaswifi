@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="../styles/styles.css">
   <!-- BOOTSTRAP -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <title>About Me - Skills</title>
+  <title>About Me - Hobbies</title>
   <link rel="icon" 
   type="image/png" 
   href="../images/logo.png">
@@ -28,78 +28,40 @@
                 <li class="nav-item">
                   <a class="nav-link" href="../index.html">Projects</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="../contact/index.html">Contact</a>
-                </li>
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../aboutme/index.html">About Me</a>
                 </li>
             
               </ul>
             </div>
         </nav>
-<!-- Top Section -->
-<div class="particleBoard">
-  <div class="item">
-    <div class="row">
-
-      <div class="col"></div>
-      <div class="col-10 col-md-5"">
-        <h1 class="partH1">Hobbies</h1>
-        <p class="partP">On my free time I like to...</p>
-      </div>
-      <div class="col-12 col-md-5"><img src="../images/map-half.png" class="img" alt="Salt Lake City Map"></div>
-      <div class="col"></div>
-
-    </div>
-      
-  </div>
-</div>
-
-<!-- End Particle -->
-<div class="skillsContent">
-  <!-- ROW 1 -->
-  <div class="row">
-    <div class="col"></div>
-    <div class="col-sm-10 col-md-5">
-      <p>&nbsp;</p>
-      <h1>Family Adventures</h1>
-      <p>I love exploring with my Family</p>
-    </div>
-    <div class="col-sm-10 col-md-5"> <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/LjvzQH5e8yc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> </div>
-    <div class="col"></div>
-  </div>
-<hr>
-  <!-- ROW 2 -->
-  <div class="row">
-      <div class="col"></div>
-      <div class="col-sm-10 col-md-5"> <div class="video-container"><iframe width="560" height="315" src="https://www.youtube.com/embed/xlLqu31YyYg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div> </div>
-      <div class="col-sm-10 col-md-5">
-          <p>&nbsp;</p>
-          <h1>Photoshoper</h1>
-          <p>PSD is Home</p>
-      </div>
-      <div class="col"></div>
-    </div>
-<hr>
-    <!-- ROW 3 -->
-  <div class="row">
-      <div class="col"></div>
-      <div class="col-sm-10 col-md-5">
-          <p>&nbsp;</p>
-          <h1>Musician</h1>
-          <p>Guitar & Bass since 2007</p>
-      </div>
-      <div class="col-sm-10 col-md-5"> <div class="video-container"> <iframe width="560" height="315" src="https://www.youtube.com/embed/yUf6EQygVmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   </div>  </div>
-      <div class="col"></div>
-    </div>
-</div>
 
 
-<!-- Closing DIV -->
+        <div class="donateContent">
+          <h1>Contact Me</h1>
+          <form name="contact" method="POST" data-netlify="true">
+            <div class="form-group">
+
+              <label>Your Name: </label>   
+                <input type="text" name="name"  class="form-control"/>
+  
+              <label>Your Email: </label>
+                <input type="email" name="email"  class="form-control"/>
+  
+              <label>Message: </label>
+                <textarea name="message" class="form-control"></textarea>
+              <br/>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </div>  
 
 
-      <!-- FOOTER -->
+          </form>
+        </div>
+
+        <!-- FOOTER -->
         <div class="globalFooter">
             <div class="item">
                 <h1>Contact Me</h1>
@@ -115,7 +77,6 @@
             <div class="copyright">© 2019 Ricardo Bautista</div>
         <!-- CLOSING DIV -->
       </div>
-
   <!-- Local JS -->
   <script src="javascript/main.js"></script>
   <!-- Bootstrap -->
