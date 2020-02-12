@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('tap').innerHTML = 'Tap a button to play audio!';
 
   document.getElementById('proj').innerHTML = 'Projects';
-  document.getElementById('lnza').innerHTML = "Lnza.me";
+  document.getElementById('lnza').innerHTML = "Lnza.me - Homepage";
   document.getElementById('lnzaP').innerHTML = "HTML • Bootstrap • CSS • Wavesurfer JS";
   document.getElementById('lnzaLink').innerHTML = '<a href="https://lnza.me" target="_blank">www.lnza.me</a> <a href="https://github.com/rickyhaswifi/Lnza.me/blob/master/index.html" target="_blank"><i class="fab fa-github-square"></i></a> <a href="https://www.youtube.com/watch?v=Pny0V-qlhiA" target="_blank"><i class="fab fa-youtube-square"></i></a>';
 
