@@ -36,7 +36,8 @@ h1, h2 {
 
 p {
   font-family: 'Darker Grotesque', sans-serif;
-  font-size: 2rem;
+  font-size: 1.8rem;
+  padding:5px;
 }
 
 .pad{
@@ -85,6 +86,7 @@ a:hover {
   color: #fff !important;
   background-color: #17268A !important;
   border-color: #007bff;
+  width: 100%;
 }
 
 .storyApp {
