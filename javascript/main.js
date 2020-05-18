@@ -40,7 +40,7 @@
 
   document.getElementById('gpoH').innerHTML = 'Alliance GPO';
   document.getElementById('gpoP').innerHTML = 'Squarespace • Custom CSS • Photoshop';
-  document.getElementById('gpoLink').innerHTML = '<a href="https://www.alliancegpo.com/" target="_blank">www.alliancegpo.com</a>  <button type="button" class="btn btn-hello" data-toggle="modal" data-target="#exampleModalCenter"><i class="fas fa-pencil-ruler"></i></button>';
+  document.getElementById('gpoLink').innerHTML = '<a href="https://www.alliancegpo.com/" target="_blank">www.alliancegpo.com</a>  <button type="button" class="btn btn-hello" data-toggle="modal" data-target="#exampleModalCenter">Original Client Draft</button>';
 
   // document.getElementById('seeMore').innerHTML = '<a href="https://entendy.com/portfolio/" target="_blank">+ See More</a>';
 

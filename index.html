@@ -41,6 +41,9 @@ Thank you for your consideration!
 	</script>
 	<!-- Close Animate -->
 
+	<!-- FLICKITY CSS -->
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
 </head>
 <body>
 	<div class="container-fluid maxx containerAll">
@@ -82,7 +85,22 @@ Thank you for your consideration!
 				<div class="col"></div>
 			</div>
 			<hr>
-
+						<!-- ROW -4 -->
+						<div class="row">
+							<div class="col"></div>
+							<div class="col-sm-10 col-md-5"> <a href="https://repl.it/@rickyhaswifi/Grocery-Store" target="_blank"> <img alt="Ruby Grocery Store" class="img" src="./images/ruby-grocery.png"></a></div>
+							<div class="col-sm-10 col-md-5">
+								<p>&nbsp;</p>
+								<h1 id="">Software - Ruby Grocery Store</h1>
+								<p id="">Ruby program ran in terminal, Grocery Store program with CRUD actions, gambiling & coupons</p>
+								<p id="">
+									<a href="https://repl.it/@rickyhaswifi/Grocery-Store" target="_blank">Run in browser</a>
+									<a href="https://github.com/rickyhaswifi/grocery" target="_blank"><i class="fab fa-github-square"></i></a>
+								</p>
+							</div>
+							<div class="col"></div>
+						</div>
+						<hr>
 			      <!-- ROW -3 -->
 						<div class="row">
 							<div class="col"></div>
@@ -103,7 +121,7 @@ Thank you for your consideration!
 						<!-- ROW -2 -->
 						<div class="row">
 							<div class="col"></div>
-							<div class="col-sm-10 col-md-5"> <a href="https://www.aprogressivesguide.com/" target="_blank"> <img alt="Takedown Generator" class="img" src="./images/progressive.png"></a></div>
+							<div class="col-sm-10 col-md-5"> <a href="https://www.aprogressivesguide.com/" target="_blank"> <img alt="A Progressives Guide" class="img" src="./images/progressive.png"></a></div>
 							<div class="col-sm-10 col-md-5">
 								<p>&nbsp;</p>
 								<h1 id="">Debugging Support</h1>
@@ -360,7 +378,56 @@ Thank you for your consideration!
 						<div class="col"></div>
 					</div>
 					<div class="col"></div>
-				
+
+					<hr>
+<h2>Design</h2>
+	<div class="row">
+		<div class="col"></div>
+
+		<div class="col-10">
+			<div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true, "wrapAround": true }'>
+			
+				<div class="carousel-cell">   
+					<img src='./images/covers/gallery-0.png' />
+				</div>
+				<div class="carousel-cell">   
+					<img src='./images/covers/gallery-1.png' />
+				</div>
+				<div class="carousel-cell">   
+					<img src='./images/covers/gallery-2.png' />
+				</div>
+				<div class="carousel-cell">   
+					<img src='./images/covers/gallery-3.png' />
+				</div>
+				<div class="carousel-cell">   
+					<img src='./images/covers/gallery-4.png' />
+				</div>
+				<div class="carousel-cell">   
+					<img src='./images/covers/gallery-5.png' />
+				</div>
+
+				<div class="carousel-cell">
+					   <div class="iFrameWrap">
+							 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/CdEAmsnJ6C0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						 </div>
+				</div>
+				<div class="carousel-cell">
+					   <div class="iFrameWrap">
+							 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jlbQypUeUko?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						 </div>
+				</div>
+				<div class="carousel-cell">
+					   <div class="iFrameWrap">
+							 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xlLqu31YyYg?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						 </div>
+				</div>
+			
+			</div>
+		</div>
+
+		<div class="col"></div>
+	</div>
+	<br />
 <!-- END -->
       <!-- <p id="seeMore"></p> -->
 		</div>
@@ -471,21 +538,30 @@ Thank you for your consideration!
 			</section> -->
 			<section class="blck">
 				<h3>Contact Me</h3>
-				<form name="contact" method="POST" data-netlify="true" action='/aboutme'>
-					<div class="form-group">
-
-						<label>Your Name: </label>   
-							<input type="text" name="name"  class="form-control" required/>
-
-						<label>Your Email: </label>
-							<input type="email" name="email"  class="form-control" required/>
-
-						<label>Message: </label>
-							<textarea name="message" class="form-control"></textarea>
+				<div class="row">
+					<div class="col-sm-10 col-md-6">
 						<br/>
-						<input type="submit" class="btn btn-primary btn-send" />
-					</div>  
-				</form>
+						<p>Cell: 559-978-8988<br/>
+						Email: rickyhaswifi@gmail.com</p>
+					</div>
+					<div class="col-sm-10 col-md-6">
+						<form name="contact" method="POST" data-netlify="true" action='/aboutme'>
+							<div class="form-group">
+		
+								<label>Your Name: </label>   
+									<input type="text" name="name" placeholder="George Maharis" class="form-control" required/>
+		
+								<label>Your Email: </label>
+									<input type="email" name="email" placeholder="info@fakeblock.com" class="form-control" required/>
+		
+								<label>Message: </label>
+									<textarea name="message" placeholder="Lets get to work" class="form-control"></textarea>
+								<br/>
+								<input type="submit" class="btn btn-primary btn-send" />
+							</div>  
+						</form>
+					</div>
+				</div>
 				<div id="contact" class="item">
 				</div>
 			</section>
@@ -542,5 +618,8 @@ Thank you for your consideration!
 			origin: 'right',
 	});
 	</script>
+
+	<!-- Flickity JavaScript -->
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>
